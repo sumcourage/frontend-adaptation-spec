@@ -6,7 +6,7 @@
 
 ### 方式一：Skills.sh CLI（推荐）
 ```bash
-npx skills add <your-github-username>/frontend-adaptation-spec
+npx skills add sumcourage/frontend-adaptation-spec
 ```
 
 ### 方式二：手动安装
