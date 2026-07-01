@@ -50,4 +50,4 @@ Claude Code / Cursor / Codex / GitHub Copilot / OpenCode / Windsurf / Cline / Ge
 
 ## 许可
 
-CC-BY-4.0
+CC0-1.0（完全放弃署名，可自由使用/修改/商用）

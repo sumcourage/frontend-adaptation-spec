@@ -1,15 +1,13 @@
 ---
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: b21004edebe357441e3d410f977e7c81_d20b68b7753711f1897e5254002afed2
-    ReservedCode1: y40U1N5cA9yv++G4DlfLj7Og+XSXrRl3667pyMNqkdA0d//E9pFPRcGFuhTQh+k8FkRVxygiJmJbzXnqkz8Q3Iq/wTNGh0RSK5YxAjbV7ZPhRQQT7PtkarSEOmw4L5wujv1vLm7XEt5Y5pcOkPtSCbnHOaGWrdGvzEYTl/1mt1vBWjHgAfxZJvf2Qoo=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: b21004edebe357441e3d410f977e7c81_d20b68b7753711f1897e5254002afed2
-    ReservedCode2: y40U1N5cA9yv++G4DlfLj7Og+XSXrRl3667pyMNqkdA0d//E9pFPRcGFuhTQh+k8FkRVxygiJmJbzXnqkz8Q3Iq/wTNGh0RSK5YxAjbV7ZPhRQQT7PtkarSEOmw4L5wujv1vLm7XEt5Y5pcOkPtSCbnHOaGWrdGvzEYTl/1mt1vBWjHgAfxZJvf2Qoo=
+name: frontend-adaptation-spec
+description: 前端项目统一适配规范，覆盖移动端H5（rem/vw适配、安全区域、1px边框、CSS Reset）与PC端（响应式断点、桌面布局、字体渲染、滚动条美化），包含可直接复用的CSS模板和项目初始化方案。Use when building or scaffolding frontend projects, writing CSS, handling mobile H5 adaptation, PC responsive layout, viewport configuration, safe area handling, 1px border, or team adaptation standards and code review.
+license: CC0-1.0
+compatibility: 适用于所有支持 SKILL.md 规范的 AI Agent 框架（Claude Code / Cursor / Codex / GitHub Copilot / OpenCode / Windsurf / Cline 等）
+metadata:
+  author: Marvis
+  version: 1.0.0
+  tags: frontend, css, adaptation, mobile, pc, responsive, rem, vw, safe-area, h5
 ---
-
-
 
 # 前端项目统一适配规范（移动端 + PC 端）
 
@@ -95,4 +93,3 @@ AIGC:
 | `assets/pc/reset.css` | PC 端 CSS Reset | PC 端项目初始化时注入 |
 | `assets/pc/common.css` | PC 端公共样式（布局/滚动条/字体） | PC 端项目初始化时注入 |
 | `assets/pc/utils.css` | PC 端工具类（间距/弹性布局/文字） | PC 端项目初始化时注入 |
-*（内容由AI生成，仅供参考）*
