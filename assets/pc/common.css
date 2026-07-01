@@ -1,0 +1,108 @@
+:root {
+  --color-primary: #1677ff;
+  --color-primary-hover: #4096ff;
+  --color-primary-active: #0958d9;
+  --color-success: #52c41a;
+  --color-warning: #faad14;
+  --color-error: #ff4d4f;
+  --color-info: #1677ff;
+  --color-text: #1f1f1f;
+  --color-text-secondary: #666;
+  --color-text-placeholder: #999;
+  --color-border: #e8e8e8;
+  --color-bg: #f5f5f5;
+  --color-bg-white: #fff;
+  --font-size-xl: 24px;
+  --font-size-lg: 20px;
+  --font-size-md: 16px;
+  --font-size-base: 14px;
+  --font-size-sm: 12px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-base: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --radius-sm: 4px;
+  --radius-base: 6px;
+  --radius-lg: 8px;
+  --radius-round: 50%;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-base: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.12);
+  --breakpoint-xl: 1920px;
+  --breakpoint-lg: 1280px;
+  --breakpoint-md: 1024px;
+  --content-max-width: 1400px;
+  --content-min-width: 1024px;
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* 内容区域容器 */
+.page-container {
+  max-width: var(--content-max-width);
+  min-width: var(--content-min-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* 后台经典布局 */
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.admin-sidebar {
+  width: 240px;
+  flex-shrink: 0;
+}
+
+.admin-main {
+  flex: 1;
+  overflow: auto;
+  padding: 24px;
+}
+
+/* 卡片 */
+.card {
+  background: var(--color-bg-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+/* 表格 */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+/* 响应式工具 */
+@media (min-width: 1920px) {
+  .page-container {
+    max-width: 1600px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .page-container {
+    padding: 0 16px;
+  }
+}
